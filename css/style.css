@@ -1,0 +1,253 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: 0;
+  box-sizing: 0;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  color: #444444;
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+ul {
+  display: flex;
+}
+.container {
+  width: 80%;
+}
+.header,
+.main,
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  padding: 20px 0px 0px 20px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar__list {
+  gap: 36px;
+}
+section {
+  padding: 80px 0px 0px 0px;
+}
+.info,
+.advantages {
+  display: flex;
+  gap: 30px;
+}
+.info__text,
+.advantages__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-style: normal;
+}
+.info__title {
+  font-size: 36px;
+  font-weight: 600;
+}
+.info__desc,
+.advantages__desc {
+  line-height: 25px;
+  width: 80%;
+}
+.info__btn {
+  padding: 16px 48px;
+  width: 255px;
+  height: 58px;
+  background: #5b6bff;
+  border-radius: 15px;
+  color: #fff;
+  font-size: inherit;
+  cursor: pointer;
+}
+.advantages__title,
+.delivery__title,
+.clients__title,
+.feedback__title {
+  font-style: 24px;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.delivery__list {
+  display: flex;
+  gap: 170px;
+}
+.delivery__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  width: 255px;
+  position: relative;
+}
+.delivery__item:nth-child(1)::before,
+.delivery__item:nth-child(2)::before {
+  position: absolute;
+  content: url(../img/arrow.svg);
+  right: -150px;
+  top: 25%;
+}
+.delivery__dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 125px;
+  height: 125px;
+  padding: 14px;
+  font-size: 64px;
+  color: #fff;
+  background: #444444;
+  border-radius: 50%;
+}
+.delivery__text {
+  text-align: center;
+}
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+}
+.clients__text {
+  text-align: center;
+}
+.clients__gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  position: relative;
+  width: 100%;
+}
+.gallery__item {
+  width: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery__control {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.control__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.control__prev {
+  left: 0;
+}
+.control__next {
+  right: 0;
+}
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 80px;
+}
+.feedback__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 545px;
+  gap: 27px;
+  margin-bottom: 100px;
+}
+.form__input {
+  padding: 8px 0px 8px 0px;
+  border-bottom: 1px solid #444;
+  width: 100%;
+  font-size: inherit;
+  color: inherit;
+  outline-color: #444;
+}
+.form__text {
+  text-align: center;
+  font-size: 14px;
+}
+.form__submit {
+  padding: 16px;
+  font-size: inherit;
+  color: #fff;
+  background: #5b6bff;
+  border-radius: 15px;
+  width: 100%;
+}
+.feedback__apps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+.apps__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  width: 60%;
+}
+.apps__list {
+  display: flex;
+  gap: 24px;
+}
+.footer {
+  padding: 60px;
+  background: #444444;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer__container{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.logo__img{
+    width: 160px;
+}
+.social__link{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.footer__hotline{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
