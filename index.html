@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lintu</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="./img/logo.svg" alt="Lintu" class="logo__img" />
+      </div>
+      <nav class="nav-bar">
+        <ul class="nav-bar__list">
+          <li class="nav-bar__item">
+            <a href="#main" class="nav-bar__link">Главная</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#advantages" class="nav-bar__link">Преимущества</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#delivery" class="nav-bar__link">Принцип доставки</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#clients" class="nav-bar__link">Клиенты</a>
+          </li>
+          <li class="nav-bar__item">
+            <a href="#feedback" class="nav-bar__link">Обратная связь</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header_login">
+        <a href="#" class="login__link">Личный кабинет</a>
+      </div>
+    </header>
+    <main class="main">
+      <section class="info" id="main">
+        <div class="info__text">
+          <h1 class="info__title">Совершенно новый уровень доставки.</h1>
+          <p class="info__desc">
+            Наша специализация — доставка дронами малогабаритных грузов и
+            пакетов в кратчайшие сроки.
+          </p>
+          <button class="info__btn">Заказать доставку</button>
+        </div>
+        <img src="./img/image-1.jpg" alt="quadrocopter" class="info__img" />
+      </section>
+      <section class="advantages" id="advantages">
+        <div class="advantages__text">
+          <h2 class="advantages__title">Преимущества</h2>
+          <p class="advantages__desc">
+            Для доставки грузов Lintu использует исключительно дроны. Вся
+            логистическая схема нашей компании основана на отсутствии
+            человеческого фактора. Наши «курьеры» никогда не устают и не
+            сбиваются с пути, поэтому мы доставляем грузы без пробок и перебоев.
+          </p>
+        </div>
+        <img
+          src="./img/image-2.jpg"
+          alt="quadrocopter"
+          class="advantages__img"
+        />
+      </section>
+      <section class="delivery" id="delivery">
+        <h3 class="delivery__title"></h3>
+        <div class="delivery__item">
+          <div class="delivery__dot">1</div>
+          <p class="delivery__text">
+            Забераем товар в любом из любой точки города
+          </p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__dot">2</div>
+          <p class="delivery__text">Доставляем по воздуху без пробок</p>
+        </div>
+        <div class="delivery__item">
+          <div class="delivery__dot">3</div>
+          <p class="delivery__text">Доставляем в любой адрес</p>
+        </div>
+      </section>
+      <section class="clients" id="clients">
+        <h3 class="clients__title">Наши клиенты</h3>
+        <p class="clients__text">
+          За все время нашей успешной работы мы у спели сработаться со многими
+          компаниями, котоыре являются нашими друзьями и хорошими партнерами по
+          бизнесу
+        </p>
+        <div class="clients__gallery">
+          <div class="gallery__item">
+            <img
+              src="./img/making-logo.svg"
+              alt="making tech"
+              class="gallery__img"
+            />
+          </div>
+          <div class="gallery__item">
+            <img
+              src="./img/calm-logo.svg"
+              alt="calm driving"
+              class="gallery__img"
+            />
+          </div>
+          <div class="gallery__item">
+            <img src="./img/n-logo.svg" alt="n" class="gallery__img" />
+          </div>
+          <div class="gallery__item">
+            <img
+              src="./img/one-logo.svg"
+              alt="one optics"
+              class="gallery__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="feedback" id="feedback">
+        <h3 class="feedback__title"></h3>
+        <form action="" method="post" class="feedback__form">
+          <input
+            type="text"
+            name="firstname"
+            id=""
+            class="form__input"
+            placeholder="Имя"
+          />
+          <input
+            type="text"
+            name="secondname"
+            id=""
+            class="form__input"
+            placeholder="Фамилия"
+          />
+          <input
+            type="tel"
+            name="tel"
+            id=""
+            class="form__input"
+            placeholder="Номер телефона"
+          />
+          <p class="form__text">
+            Нажимая кнопку “Оставить заявку” вы принимаете пользовательское
+            соглашение и политику конфиденциальности
+          </p>
+          <input type="submit" value="Оставить заявку" class="form__submit" />
+        </form>
+        <div class="feedback__apps">
+          <p class="apps__title"></p>
+          <ul class="apps__list">
+            <li class="apps__item">
+              <img
+                src="./img/google-logo.png"
+                alt="google play"
+                class="apps__img"
+              />
+            </li>
+            <li class="apps__item">
+              <img
+                src="./img/apple-logo.png"
+                alt="app store"
+                class="apps__img"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./img/logo-footer.svg" alt="Lintu" class="logo__img" />
+        <span class="logo__subtitle">Доставка грузов при помощи дронов</span>
+      </div>
+      <div class="footer__social">
+        <div class="social__link">
+          <li class="social__item">
+            <img
+              src="./img/inst-logo.svg"
+              alt="instagram"
+              class="social__img"
+            />
+          </li>
+          <li class="social__item">
+            <img src="./img/vk-logo.svg" alt="vk" class="social__img" />
+          </li>
+          <li class="social__item">
+            <img
+              src="./img/twitter-logo.svg"
+              alt="twitter"
+              class="social__img"
+            />
+          </li>
+        </div>
+      </div>
+      <div class="footer__hotline">
+        <span class="hotline__title">Горячая линия</span>
+        <a href="tel:88005553535 " class="hotline__tel">8 - 800 - 555 - 35 - 35 </a>
+      </div>
+    </footer>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
