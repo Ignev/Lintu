@@ -21,7 +21,14 @@
           /></a>
         </div>
         <nav class="nav-bar">
+          <button class="nav-bar__burger">
+            <span class="burger__line"></span>
+          </button>
           <ul class="nav-bar__list">
+            <button class="nav-bar__close">
+              <span class="close__line"></span>
+              <span class="close__line"></span>
+            </button>
             <li class="nav-bar__item">
               <a href="#main" class="nav-bar__link">Главная</a>
             </li>
@@ -37,11 +44,11 @@
             <li class="nav-bar__item">
               <a href="#feedback" class="nav-bar__link">Обратная связь</a>
             </li>
+            <li class="nav-bar__item">
+              <a href="#" class="nav-bar__link">Личный кабинет</a>
+            </li>
           </ul>
         </nav>
-        <div class="header_login">
-          <a href="#" class="login__link">Личный кабинет</a>
-        </div>
       </div>
     </header>
     <main class="main">
@@ -101,7 +108,7 @@
             по бизнесу
           </p>
           <div class="clients__gallery">
-            <div class="gallery__item">
+            <div class="gallery__item gallery__item-active">
               <img
                 src="./img/making-logo.svg"
                 alt="making tech"
